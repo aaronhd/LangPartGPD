@@ -20,4 +20,4 @@
 
 
 ## Acknowledgement
-- [PointNetGPD]([https://github.com/atenpas/gpg](https://github.com/lianghongzhuo/PointNetGPD))
+- [PointNetGPD](https://github.com/lianghongzhuo/PointNetGPD)
