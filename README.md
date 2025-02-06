@@ -16,6 +16,7 @@
 3. LangSHAPE dataset and pretrained model are available from [project website](https://sites.google.com/view/lang-shape/dataset)
 
 ## 3D part language grounding
+1. LangSHAPE dataset and pretrained model are available from [project website](https://sites.google.com/view/lang-shape/dataset)
 
 
 
