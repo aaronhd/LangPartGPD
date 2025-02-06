@@ -1,5 +1,5 @@
 # pointnet used  512 input points
-python main_1v_SHAPE_v6.py --mode train --cuda --batch-size 64  --split_mode part-wise  --gpu 0
+python train.py --mode train --cuda --batch-size 64  --split_mode part-wise  --gpu 0
 
 # inference
 python inference.py 
