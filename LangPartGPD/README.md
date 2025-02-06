@@ -6,7 +6,7 @@
     ```
 
 
-3. inference:
+2. inference:
     ```bash
     python inference.py 
     ```
