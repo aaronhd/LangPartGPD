@@ -13,6 +13,9 @@
     python setup.py develop
     ```
 
+3. LangSHAPE dataset is available from [project website](https://sites.google.com/view/lang-shape/dataset)
+
+
 
 
 
