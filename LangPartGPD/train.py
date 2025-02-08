@@ -33,7 +33,7 @@ train_script_path = os.path.abspath(__file__)
 
 
 parser = argparse.ArgumentParser(description="LangPartetGPD_SHAPE")
-parser.add_argument("--tag", type=str, default="fullv_zju")
+parser.add_argument("--tag", type=str, default="fullv_xxx")
 parser.add_argument("--epoch", type=int, default=60)
 parser.add_argument("--mode", choices=["train", "test"], required=True)
 parser.add_argument("--batch-size", type=int, default=32)
@@ -52,7 +52,7 @@ parser.add_argument(
 parser.add_argument(
     "--data-path",
     type=str,
-    default="/media/aaronszju/hard_1/dataset/LangSHAPE",
+    default="/media/aaronsxxx/hard_1/dataset/LangSHAPE",
     help="data path",
 )
 parser.add_argument("--log-interval", type=int, default=10)
