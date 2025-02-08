@@ -137,7 +137,7 @@ def single_input(args):
         pc = pc / m
         return pc
 
-    pc_path = '/home/aaronszju/project_repostories/TASE_pub/PartGrounding/test_data/all_pc_in_world.txt'
+    pc_path = '/home/aaronsxxx/project_repostories/TASE_pub/PartGrounding/test_data/all_pc_in_world.txt'
 
     points = np.loadtxt(pc_path)
     points = points[:, :3]
@@ -212,7 +212,7 @@ if __name__ == '__main__':
     # MODEL = importlib.import_module(model_name)
     classifier = get_model(num_part, normal_channel=False).cuda()
     # print("Language grounding model: {}".format(str(experiment_dir) + '/checkpoints/best_model.pth'))
-    model_path = '/home/aaronszju/project_repostories/TASE_pub/PartGrounding/log/part_seg/model/part_grounding_model.pth'
+    model_path = '/home/aaronsxxx/project_repostories/TASE_pub/PartGrounding/log/part_seg/model/part_grounding_model.pth'
     checkpoint = torch.load(model_path)
     classifier.load_state_dict(checkpoint['model_state_dict'])
     classifier = classifier.eval()
