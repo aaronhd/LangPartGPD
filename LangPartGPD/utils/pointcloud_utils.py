@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-"""
-@File: pointcloud_utils.py.py
-@Time: 2024/12/20 下午10:18$
-@Author: Yaoxian
-@Version: 1.0
-@Contact: aarons.hdu@gmail.com
-@Desc: https://blog.csdn.net/supernova121/article/details/141313042
-"""
-
 import numpy as np
 
 
