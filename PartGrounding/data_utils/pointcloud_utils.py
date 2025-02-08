@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-"""
-@File: Pointcloud_utils.py
-@Time: 2024/6/18 下午4:21$
-@Author: Yaoxian
-@Version: 1.0
-@Contact: aarons.hdu@gmail.com
-@Desc: pointcloud preprocess
-"""
 
 import numpy as np
 from scipy.spatial.transform import Rotation as R
