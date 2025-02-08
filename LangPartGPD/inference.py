@@ -77,7 +77,7 @@ def main():
     grasp_points_num = 512
     point_channel = 3
     model_path = (
-        "assets/learned_models/2025-02-04_23-32_fullv_zju_part-wise_dict_best.pth"
+        "assets/learned_models/2025-02-04_23-32_fullv_xxx_part-wise_dict_best.pth"
     )
     model = PointNetCls(num_points=grasp_points_num, input_chann=point_channel, k=2)
     model.load_state_dict(torch.load(model_path))
@@ -85,7 +85,7 @@ def main():
     model.eval()
     print("load is ok")
 
-    dataset_root = "/media/aaronszju/hard_1/dataset/LangSHAPE"
+    dataset_root = "/media/aaronsxxx/hard_1/dataset/LangSHAPE"
 
     test_loader = PointGraspOneViewDataset(
         grasp_points_num=grasp_points_num,
