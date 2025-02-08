@@ -57,7 +57,7 @@ class get_model(nn.Module):
         # self.textmodel.save_pretrained(
         #     '/home/aaronsamd37/reading_PJ/Pointnet_Pointnet2_pytorch_kw20221016_20241222/local_sent_bert/model')
         # self.textmodel = BertModel.from_pretrained("/home/aaronsamd37/reading_PJ/Pointnet_Pointnet2_pytorch_kw20221016_20241222/local_bert/bert-base-uncased_model")
-        # self.textmodel.save_pretrained('/home/aaronszju/project_repostories/Pointnet_Pointnet2_pytorch_kw20221016/bert-base-uncased')
+        # self.textmodel.save_pretrained('/home/aaronsxxx/project_repostories/Pointnet_Pointnet2_pytorch_kw20221016/bert-base-uncased')
         self.mapping_lang = torch.nn.Sequential(
             nn.Linear(lang_dim, 256),
             nn.BatchNorm1d(256),
