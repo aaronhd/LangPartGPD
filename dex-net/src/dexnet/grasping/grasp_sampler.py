@@ -1854,7 +1854,7 @@ class GpgGraspSamplerPcl(GraspSampler):
 
             if log_debug:
                 print('[grasp_sampler', points_for_sample.shape)
-        # np.savetxt('/home/aaronstc/TKDE_langshape/aaron_env_add_object_zju/point_cloud_data/points_for_sample.txt',
+        # np.savetxt('/home/aaronstc/TKDE_langshape/aaron_env_add_object_xxx/point_cloud_data/points_for_sample.txt',
         #            points_for_sample)
         # get all grasps
         print('this sampler code')
@@ -2268,7 +2268,7 @@ class GpgGraspSamplerPcl(GraspSampler):
                 print(len(select_idx))
                 print(len(set(select_idx)))
                 np.savetxt(
-                    '/home/aaronstc/TKDE_langshape/aaron_env_add_object_zju/point_cloud_data/select_idx_sampling.txt',
+                    '/home/aaronstc/TKDE_langshape/aaron_env_add_object_xxx/point_cloud_data/select_idx_sampling.txt',
                     select_idx_sampling)
                 return processed_potential_grasp, sampled_surface_amount
             #
