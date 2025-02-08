@@ -27,7 +27,7 @@ from tqdm import tqdm
 # from autolab_core import YamlConfig
 
 print("Dataloader SHAPE10 simple:v4 v5  merge grasping_label and pc")
-home_dir = "/home/aaronszju/code/LangPartGPD"
+home_dir = "/home/aaronsxxx/code/LangPartGPD"
 gripper_path = "/dex-net/test/config_TASE.yaml"
 yaml_config = YamlConfig(home_dir + gripper_path)
 print("gripper_path", gripper_path)
@@ -389,7 +389,7 @@ def get_grasp_list(grasp, pcl_sampler=True):
 
 
 def test_dataset(vis=False):
-    dataset_root = "/media/aaronszju/hard_1/dataset"
+    dataset_root = "/media/aaronsxxx/hard_1/dataset"
     grasp_points_num = 750
     # obj_points_num = 50000
     # pc_file_used_num = 20
@@ -465,7 +465,7 @@ if __name__ == "__main__":
     # print(width)
     test_dataset(vis=True)
 
-    # visualization using t-read_grasps_from_shapenet_draw_zju_check_train_grasp.py
+    # visualization using t-read_grasps_from_shapenet_draw_xxx_check_train_grasp.py
     # using show_dataloader_check()
 
     hand_outer_diameter = 0.191
