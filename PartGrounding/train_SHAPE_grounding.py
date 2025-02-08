@@ -148,7 +148,7 @@ def main(args):
     exp_dir = exp_dir.joinpath('model')
     exp_dir.mkdir(exist_ok=True)
 
-    conf_descip = args.descrip + '_zju_' + args.train_mode + '_' + args.data_mode
+    conf_descip = args.descrip + '_xxx_' + args.train_mode + '_' + args.data_mode
     if args.log_dir is None:
         exp_dir = exp_dir.joinpath(timestr + '_shape' + '_' + args.model.split('_')[-1] + conf_descip)
     else:
@@ -175,7 +175,7 @@ def main(args):
 
     writer = SummaryWriter(os.path.join(tb_dir, timestr + '_' + args.model.split('_')[-1]) + conf_descip)
 
-    root = '/media/aaronszju/hard_1/dataset'
+    root = '/media/aaronsxxx/hard_1/dataset'
     TRAIN_DATASET = PartNormalDataset(root=root, npoints=args.npoint, train_mode=args.train_mode, split='trainval',
                                       normal_channel=args.normal, data_mode=args.data_mode)
     trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=args.batch_size, shuffle=True,
