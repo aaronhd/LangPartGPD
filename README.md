@@ -4,7 +4,7 @@
 1. Clone this repository:
     ```bash
     cd $HOME/code
-    git clone https://github.com/aaronhd/LangPartGPD.git
+    git clone https:/xxx.git
     ```
 
 2. Install our modified dex-net (Modify from [Berkeley Automation Lab: dex-net](https://github.com/BerkeleyAutomation/dex-net))
