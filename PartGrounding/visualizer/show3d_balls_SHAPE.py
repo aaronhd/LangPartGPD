@@ -226,7 +226,7 @@ if __name__ == '__main__':
     # root = '../data/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
 
     from ShapeNetDataLoader_SHAPE_grounding_gpt5 import PartNormalDataset
-    root = '/media/aaronszju/hard_1/dataset'
+    root = '/media/aaronsxxx/hard_1/dataset'
 
     dataset = PartNormalDataset(root = root, npoints=2048, split='test', normal_channel=False)
     idx = np.random.randint(0, len(dataset))
