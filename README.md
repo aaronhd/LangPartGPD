@@ -23,3 +23,4 @@
 
 ## Acknowledgement
 - [PointNetGPD](https://github.com/lianghongzhuo/PointNetGPD)
+- [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
