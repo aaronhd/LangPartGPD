@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-"""
-@File: pytorchtools.py
-@Time: 2024/12/13 上午12:19$
-@Author: Yaoxian
-@Version: 1.0
-@Contact: aarons.hdu@gmail.com
-@Desc: None
-"""
 import numpy as np
 import torch
 
